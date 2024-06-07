@@ -35,11 +35,11 @@
         "&none", "&kp GRAVE", "&kp SINGLE_QUOTE", "&kp DOUBLE_QUOTES",     "&kp QUESTION",     "&kp PIPE",                                                            "&trans",                     "&trans",                                      "&kp BACKSLASH",    "&kp MINUS",    "&kp SLASH",            "&none",             "&none",   "&none",
        "&trans",     "&none",            "&none",     "&kp LESS_THAN", "&kp GREATER_THAN",                           "&kp LEFT_PARENTHESIS", "&kp RIGHT_PARENTHESIS", "&trans",                     "&trans", "&kp LEFT_BRACE", "&kp RIGHT_BRACE",                      "&kp PLUS",        "&none",            "&none",             "&none",  "&trans"
     ], [
-        "&none",  "&none",  "&none",  "&none",  "&none",  "&none",           "&none",                                                                   "&none",  "&none",     "&none",         "&none",   "&none",         "&none",  "&none",
-        "&none",  "&none",  "&none",  "&none",  "&none",  "&none",           "&none",                                                                   "&none",  "&none",  "&kp LEFT",     "&kp RIGHT", "&kp DEL",         "&none",  "&none",
-        "&none",  "&none",  "&none",  "&none",  "&none",  "&none",           "&none",  "&none",  "&none",                      "&none",    "&none",     "&none",  "&none",     "&kp J",         "&kp K",   "&kp L", "&kp SEMICOLON",  "&none",
-        "&none",  "&none",  "&none",  "&none",  "&none",  "&none",                               "&none",                      "&none",                           "&none", "&kp PG_UP", "&kp PAGE_DOWN", "&kp ESC",         "&none",  "&none",
-        "&none",  "&none",  "&none",  "&none",  "&none",                     "&none",  "&none",  "&none",                      "&none", "&kp LEFT", "&kp RIGHT",              "&kp UP",      "&kp DOWN",   "&none",         "&none",  "&none"
+            "&none",  "&none",  "&none",            "&none",          "&none",  "&none",           "&none",                                                                   "&none",  "&none",     "&none",         "&none",   "&none",         "&none",      "&none",
+            "&none",  "&none",  "&none",            "&none",          "&none",  "&none",           "&none",                                                                   "&none",  "&none",  "&kp LEFT",     "&kp RIGHT", "&kp DEL",         "&none",      "&none",
+            "&none",  "&none",  "&none", "&kp LEFT_CONTROL",     "&kp LSHIFT",  "&none",           "&none",  "&none",  "&none",                      "&none",    "&none",     "&none",  "&none",     "&kp J",         "&kp K",   "&kp L", "&kp SEMICOLON",      "&none",
+       "&kp LSHIFT",  "&none",  "&none", "&kp LEFT_CONTROL", "&kp LEFT_SHIFT",  "&none",                               "&none",                      "&none",                           "&none", "&kp PG_UP", "&kp PAGE_DOWN", "&kp ESC",         "&none", "&kp RSHIFT",
+            "&none",  "&none",  "&none",            "&none",          "&none",                     "&none",  "&none",  "&none",                      "&none", "&kp LEFT", "&kp RIGHT",              "&kp UP",      "&kp DOWN",   "&none",         "&none",      "&none"
     ]
   ]
 }
