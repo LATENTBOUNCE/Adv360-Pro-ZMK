@@ -81,10 +81,10 @@
         layer_nav {
             bindings = <
   &none   &none   &none   &none   &none   &none            &none                                                        &none   &none      &none          &none    &none          &none   &none
-  &none   &none   &none   &none   &none   &none            &none                                                        &none   &none     &kp UP       &kp DOWN  &kp DEL          &none   &none
+  &none   &none   &none   &none   &none   &none            &none                                                        &none   &none   &kp LEFT      &kp RIGHT  &kp DEL          &none   &none
   &none   &none   &none   &none   &none   &none            &none   &none   &none                   &none     &none      &none   &none      &kp J          &kp K    &kp L  &kp SEMICOLON   &none
   &none   &none   &none   &none   &none   &none                            &none                   &none                        &none  &kp PG_UP  &kp PAGE_DOWN  &kp ESC          &none   &none
-  &none   &none   &none   &none   &none                    &none   &none   &none                   &none  &kp LEFT  &kp RIGHT              &none          &none    &none          &none   &none
+  &none   &none   &none   &none   &none                    &none   &none   &none                   &none  &kp LEFT  &kp RIGHT             &kp UP       &kp DOWN    &none          &none   &none
             >;
         };
 
