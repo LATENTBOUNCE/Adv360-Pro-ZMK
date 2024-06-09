@@ -43,7 +43,7 @@
        &kp EQUAL  &kp EXCLAMATION    &kp AT  &kp POUND   &kp DOLLAR  &kp PERCENT                    &none                                                                     &mo 2  &kp CARET  &kp AMPERSAND   &kp STAR  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp MINUS
          &kp TAB            &kp Q     &kp W      &kp F        &kp P        &kp B                    &none                                                                     &none      &kp J          &kp L      &kp U                 &kp Y               &kp SEMI   &kp BSLH
  &mt LALT ESCAPE            &kp A     &kp R      &kp S  &mt LSHFT T        &kp G                    &none  &kp DELETE     &none                      &none  &kp DELETE        &none      &kp M    &mt RSHFT N      &kp E                 &kp I                  &kp O   &kp RALT
-       &kp LSHFT            &kp Z     &kp X      &kp C      &lt 4 D        &kp V                                       &kp HOME                  &kp PG_UP                               &kp K          &kp H  &kp COMMA               &kp DOT               &kp FSLH  &kp RSHFT
+       &kp LSHFT            &kp Z     &kp X      &kp C      &lt 4 D        &kp V                                       &kp HOME                  &kp PG_UP                               &kp K        &lt 5 H  &kp COMMA               &kp DOT               &kp FSLH  &kp RSHFT
            &mo 1        &kp GRAVE  &kp CAPS   &kp LGUI    &kp LCTRL                         &kp BACKSPACE   &lt 5 TAB   &kp END                  &kp PG_DN   &kp ENTER  &lt 3 SPACE                 &kp RCTRL   &kp RGUI              &kp LBKT               &kp RBKT      &mo 1
             >;
         };
@@ -74,7 +74,7 @@
   &none      &none                       &none        &kp PIPE  &kp SEMICOLON              &none                                             &none                                                                           &none   &none         &none              &none   &none   &none   &none
   &none   &kp PLUS  &mt RIGHT_BRACE LEFT_BRACE  &kp UNDERSCORE      &kp MINUS  &kp DOUBLE_QUOTES                                             &none                           &none   &none                   &none   &none   &none   &none  &kp QUESTION  &kp DOUBLE_QUOTES   &none   &none   &none
   &none  &kp GRAVE            &kp SINGLE_QUOTE       &kp EQUAL      &kp COLON      &kp BACKSLASH                                                                                     &none                   &none                   &none        &kp AT    &kp EXCLAMATION   &none   &none   &none
-  &none  &kp GRAVE                   &kp TILDE       &kp CARET     &kp DOLLAR                               &mt RIGHT_PARENTHESIS LEFT_PARENTHESIS  &mt RIGHT_BRACKET LEFT_BRACKET   &none                   &none   &none   &none                 &none              &none   &none   &none   &none
+  &none      &none                   &kp TILDE       &kp CARET     &kp DOLLAR                               &mt RIGHT_PARENTHESIS LEFT_PARENTHESIS  &mt RIGHT_BRACKET LEFT_BRACKET   &none                   &none   &none   &none                 &none              &none   &none   &none   &none
             >;
         };
 
@@ -90,11 +90,11 @@
 
         layer_NUM {
             bindings = <
-  &none   &none   &none   &none   &none   &none            &none                                                         &none   &none         &none         &none         &none   &none   &none
-  &none   &none   &none   &none   &none   &none            &none                                                         &none   &none  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9   &none   &none
-  &none   &none   &none   &none   &none   &none            &none   &none   &none                   &none   &none         &none   &none  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6   &none   &none
-  &none   &none   &none   &none   &none   &none                            &none                   &none                         &none  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3   &none   &none
-  &none   &none   &none   &none   &none                    &none   &none   &none                   &none   &none  &kp NUMBER_0                 &none         &none         &none   &none   &none
+  &none   &none         &none         &none         &none   &none                   &none                                                         &none   &none         &none         &none         &none   &none   &none
+  &none   &none  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9   &none                   &none                                                         &none   &none  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9   &none   &none
+  &none   &none  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6   &none                   &none   &none   &none                   &none   &none         &none   &none  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6   &none   &none
+  &none   &none  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3   &none                                   &none                   &none                         &none  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3   &none   &none
+  &none   &none         &none         &none         &none                    &kp NUMBER_0   &none   &none                   &none   &none  &kp NUMBER_0                 &none         &none         &none   &none   &none
             >;
         };
 
