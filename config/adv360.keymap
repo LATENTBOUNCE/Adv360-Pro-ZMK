@@ -40,11 +40,11 @@
 
         default_layer {
             bindings = <
-               &kp EQUAL     &kp N1    &kp N2    &kp N3  &kp N4  &kp N5                    &none                                                                       &mo 2  &kp N6     &kp N7     &kp N8    &kp N9    &kp N0  &kp MINUS
-                 &kp TAB      &kp Q     &kp W     &kp F   &kp P   &kp B                    &none                                                                       &none   &kp J      &kp L      &kp U     &kp Y  &kp SEMI   &kp BSLH
- &mt LEFT_CONTROL ESCAPE      &kp A     &kp R     &kp S   &kp T   &kp G                    &none  &kp LCTRL  &kp LALT                  &kp LEFT_GUI  &kp DELETE        &none   &kp M      &kp N      &kp E     &kp I     &kp O    &kp SQT
-               &kp LSHFT      &kp Z     &kp X     &kp C   &kp D   &kp V                                      &kp HOME                     &kp PG_UP                            &kp K      &kp H  &kp COMMA   &kp DOT  &kp FSLH  &kp RSHFT
-                   &mo 1  &kp GRAVE  &kp CAPS  &kp LALT   &mo 4                    &kp BACKSPACE  &lt 5 TAB   &kp END                     &kp PG_DN   &kp ENTER  &lt 3 SPACE          &kp RCTRL   &kp RALT  &kp LBKT  &kp RBKT      &mo 1
+       &kp EQUAL  &kp EXCLAMATION    &kp AT  &kp POUND   &kp DOLLAR  &kp PERCENT                    &none                                                                     &mo 2  &kp CARET  &kp AMPERSAND   &kp STAR  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp MINUS
+         &kp TAB            &kp Q     &kp W      &kp F        &kp P        &kp B                    &none                                                                     &none      &kp J          &kp L      &kp U                 &kp Y               &kp SEMI   &kp BSLH
+ &mt LALT ESCAPE            &kp A     &kp R      &kp S  &mt LSHFT T        &kp G                    &none  &kp DELETE     &none                      &none  &kp DELETE        &none      &kp M    &mt RSHFT N      &kp E                 &kp I                  &kp O   &kp RALT
+       &kp LSHFT            &kp Z     &kp X      &kp C      &lt 4 D        &kp V                                       &kp HOME                  &kp PG_UP                               &kp K          &kp H  &kp COMMA               &kp DOT               &kp FSLH  &kp RSHFT
+           &mo 1        &kp GRAVE  &kp CAPS   &kp LGUI    &kp LCTRL                         &kp BACKSPACE   &lt 5 TAB   &kp END                  &kp PG_DN   &kp ENTER  &lt 3 SPACE                 &kp RCTRL   &kp RGUI              &kp LBKT               &kp RBKT      &mo 1
             >;
         };
 
@@ -70,21 +70,21 @@
 
         layer_symbols {
             bindings = <
-     &none           &none                       &none           &none             &none          &none                                             &none                                                                           &none   &none              &none            &none       &none   &none   &none
-     &none           &none                    &kp PLUS        &kp STAR     &kp SEMICOLON       &kp PIPE                                             &none                                                                           &none   &none              &none            &none       &none   &none   &none
- &kp GRAVE  &kp APOSTROPHE  &mt RIGHT_BRACE LEFT_BRACE  &kp UNDERSCORE         &kp MINUS  &kp AMPERSAND                                             &none                           &none   &none                   &none   &none   &none   &none  &kp DOUBLE_QUOTES     &kp QUESTION  &kp DOLLAR   &none   &none
- &kp CARET    &kp QUESTION                   &kp EQUAL       &kp SLASH         &kp COLON  &kp BACKSLASH                                                                                     &none                   &none                   &none             &kp AT  &kp EXCLAMATION   &kp POUND   &none   &none
-     &none       &kp GRAVE                   &kp TILDE   &kp LESS_THAN  &kp GREATER_THAN                           &mt RIGHT_PARENTHESIS LEFT_PARENTHESIS  &mt RIGHT_BRACKET LEFT_BRACKET   &none                   &none   &none   &none                &kp PERCENT            &none       &none   &none   &none
+  &none      &none                       &none           &none          &none              &none                                             &none                                                                           &none   &none         &none              &none   &none   &none   &none
+  &none      &none                       &none        &kp PIPE  &kp SEMICOLON              &none                                             &none                                                                           &none   &none         &none              &none   &none   &none   &none
+  &none   &kp PLUS  &mt RIGHT_BRACE LEFT_BRACE  &kp UNDERSCORE      &kp MINUS  &kp DOUBLE_QUOTES                                             &none                           &none   &none                   &none   &none   &none   &none  &kp QUESTION  &kp DOUBLE_QUOTES   &none   &none   &none
+  &none  &kp GRAVE            &kp SINGLE_QUOTE       &kp EQUAL      &kp COLON      &kp BACKSLASH                                                                                     &none                   &none                   &none        &kp AT    &kp EXCLAMATION   &none   &none   &none
+  &none  &kp GRAVE                   &kp TILDE       &kp CARET     &kp DOLLAR                               &mt RIGHT_PARENTHESIS LEFT_PARENTHESIS  &mt RIGHT_BRACKET LEFT_BRACKET   &none                   &none   &none   &none                 &none              &none   &none   &none   &none
             >;
         };
 
         layer_nav {
             bindings = <
-      &none   &none   &none           &none   &none   &none                       &none                                                        &none   &none           &none         &none    &none          &none       &none
-      &none   &none   &none           &none   &none   &none                       &none                                                        &none   &none        &kp LEFT     &kp RIGHT  &kp DEL          &none       &none
-      &none   &none   &none           &none   &none   &none                       &none   &none   &none                   &none     &none      &none   &none           &kp J         &kp K    &kp L  &kp SEMICOLON       &none
- &kp LSHIFT   &none   &none           &none   &none   &none                                       &none                   &none                        &none  &kp DOWN_ARROW  &kp UP_ARROW  &kp ESC          &none  &kp RSHIFT
-      &none   &none   &none  &kp LEFT_SHIFT   &none                    &kp LEFT_CONTROL   &none   &none                   &none  &kp LEFT  &kp RIGHT           &kp PAGE_DOWN   &kp PAGE_UP    &none          &none       &none
+      &none   &none   &none           &none   &none   &none                       &none                                                        &none   &none           &none         &none   &none          &none       &none
+      &none   &none   &none           &none   &none   &none                       &none                                                        &none   &none        &kp LEFT     &kp RIGHT   &none          &none       &none
+      &none   &none   &none           &none   &none   &none                       &none   &none   &none                   &none     &none      &none   &none           &kp J         &kp K   &kp L  &kp SEMICOLON       &none
+ &kp LSHIFT   &none   &none           &none   &none   &none                                       &none                   &none                        &none  &kp DOWN_ARROW  &kp UP_ARROW   &none          &none  &kp RSHIFT
+      &none   &none   &none  &kp LEFT_SHIFT   &none                    &kp LEFT_CONTROL   &none   &none                   &none  &kp LEFT  &kp RIGHT           &kp PAGE_DOWN   &kp PAGE_UP   &none          &none       &none
             >;
         };
 
