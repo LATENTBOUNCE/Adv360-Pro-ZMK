@@ -40,11 +40,11 @@
 
         default_layer {
             bindings = <
-        &kp EQUAL  &kp EXCLAMATION    &kp AT             &kp POUND  &kp DOLLAR  &kp PERCENT                    &none                                                                        &mo 2  &kp CARET  &kp AMPERSAND              &kp STAR  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS               &kp MINUS
-          &kp TAB            &kp Q     &kp W                 &kp F       &kp P        &kp B                    &none                                                                        &none      &kp J          &kp L                 &kp U                 &kp Y               &kp SEMI                &kp BSLH
- &mt LCTRL ESCAPE            &kp A     &kp R                 &kp S       &kp T        &kp G                    &none  &kp DELETE     &none                      &none  &kp RIGHT_ALT        &none      &kp M          &kp N                 &kp E                 &kp I                  &kp O  &mt RCTRL SINGLE_QUOTE
-       &sk LSHIFT            &kp Z     &kp X                 &kp C     &lt 4 D        &kp V                                       &kp HOME                  &kp PG_UP                                  &kp K        &lt 5 H             &kp COMMA               &kp DOT               &kp FSLH              &sk RSHIFT
-            &mo 1        &kp GRAVE  &kp CAPS  &macro_super_layer_l   &sk LCTRL                         &kp BACKSPACE   &lt 4 TAB   &kp END                  &kp PG_DN    &lt 5 ENTER  &lt 3 SPACE                 &sk RCTRL  &macro_super_layer_r      &kp LEFT_BRACKET               &kp RBKT                   &mo 1
+        &kp EQUAL  &kp NUMBER_1  &kp NUMBER_2          &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5                    &none                                                                        &mo 2  &kp NUMBER_6  &kp NUMBER_7          &kp NUMBER_8      &kp NUMBER_9  &kp NUMBER_0               &kp MINUS
+          &kp TAB         &kp Q         &kp W                 &kp F         &kp P         &kp B                    &none                                                                        &none         &kp J         &kp L                 &kp U             &kp Y      &kp SEMI                &kp BSLH
+ &mt LCTRL ESCAPE         &kp A         &kp R                 &kp S         &kp T         &kp G                    &none  &kp DELETE     &none                      &none  &kp RIGHT_ALT        &none         &kp M         &kp N                 &kp E             &kp I         &kp O  &mt RCTRL SINGLE_QUOTE
+       &sk LSHIFT         &kp Z         &kp X                 &kp C       &lt 4 D         &kp V                                       &kp HOME                  &kp PG_UP                                     &kp K       &lt 5 H             &kp COMMA           &kp DOT      &kp FSLH              &sk RSHIFT
+            &mo 1     &kp GRAVE      &kp CAPS  &macro_super_layer_l     &sk LCTRL                          &kp BACKSPACE   &lt 4 TAB   &kp END                  &kp PG_DN    &lt 5 ENTER  &lt 3 SPACE                   &sk RCTRL  &macro_super_layer_r  &kp LEFT_BRACKET      &kp RBKT                   &mo 1
             >;
         };
 
@@ -70,11 +70,11 @@
 
         layer_symbols {
             bindings = <
-  &none      &none                       &none           &none          &none              &none                                             &none                                                                           &none   &none         &none              &none   &none   &none   &none
-  &none      &none                       &none        &kp PIPE  &kp SEMICOLON              &none                                             &none                                                                           &none   &none         &none              &none   &none   &none   &none
-  &none   &kp PLUS  &mt RIGHT_BRACE LEFT_BRACE  &kp UNDERSCORE      &kp MINUS  &kp DOUBLE_QUOTES                                             &none                           &none   &none                   &none   &none   &none   &none  &kp QUESTION  &kp DOUBLE_QUOTES   &none   &none   &none
-  &none  &kp GRAVE            &kp SINGLE_QUOTE       &kp EQUAL      &kp COLON      &kp BACKSLASH                                                                                     &none                   &none                   &none        &kp AT    &kp EXCLAMATION   &none   &none   &none
-  &none      &none                   &kp TILDE       &kp CARET     &kp DOLLAR                               &mt RIGHT_PARENTHESIS LEFT_PARENTHESIS  &mt RIGHT_BRACKET LEFT_BRACKET   &none                   &none   &none   &none                 &none              &none   &none   &none   &none
+  &none        &none                       &none           &none          &none          &none                                             &none                                                                           &none   &none         &none              &none   &none   &none   &none
+  &none  &kp PERCENT                    &kp PIPE   &kp AMPERSAND  &kp SEMICOLON       &kp HASH                                             &none                                                                           &none   &none         &none              &none   &none   &none   &none
+  &none     &kp PLUS  &mt RIGHT_BRACE LEFT_BRACE  &kp UNDERSCORE      &kp MINUS       &kp STAR                                             &none                           &none   &none                   &none   &none   &none   &none  &kp QUESTION  &kp DOUBLE_QUOTES   &none   &none   &none
+  &none    &kp GRAVE            &kp SINGLE_QUOTE       &kp EQUAL      &kp COLON  &kp BACKSLASH                                                                                     &none                   &none                   &none        &kp AT    &kp EXCLAMATION   &none   &none   &none
+  &none        &none                   &kp TILDE       &kp CARET     &kp DOLLAR                           &mt RIGHT_PARENTHESIS LEFT_PARENTHESIS  &mt RIGHT_BRACKET LEFT_BRACKET   &none                   &none   &none   &none                 &none              &none   &none   &none   &none
             >;
         };
 
