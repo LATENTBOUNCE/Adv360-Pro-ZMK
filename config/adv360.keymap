@@ -40,11 +40,11 @@
 
         default_layer {
             bindings = <
-      &kp EQUAL    &kp NUMBER_1     &kp NUMBER_2  &kp NUMBER_3          &kp NUMBER_4  &kp NUMBER_5                    &none                                                                    &mo 2  &kp NUMBER_6    &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9    &kp NUMBER_0         &kp MINUS
-        &kp TAB           &kp Q            &kp W         &kp F                 &kp P         &kp B                    &none                                                                    &none         &kp J           &kp L         &kp U         &kp Y        &kp SEMI          &kp BSLH
- &mt DEL ESCAPE           &kp A            &kp R         &kp S                 &kp T         &kp G                    &none  &kp ESCAPE     &none                      &none  &lt 5 ENTER      &none         &kp M           &kp N         &kp E         &kp I           &kp O  &kp SINGLE_QUOTE
-          &sl 5           &kp Z            &kp X         &kp C                 &kp D         &kp V                                       &kp HOME                  &kp PG_UP                                 &kp K           &kp H     &kp COMMA       &kp DOT        &kp FSLH             &sl 5
-          &mo 1  &kp LEFT_ARROW  &kp RIGHT_ARROW         &sl 6  &kp LEFT_PARENTHESIS                          &kp BACKSPACE       &sl 4   &kp END                  &kp PG_DN        &sl 4  &kp SPACE                &kp LEFT_BRACE         &sl 6  &kp UP_ARROW  &kp DOWN_ARROW             &mo 1
+    &kp AT_SIGN  &mt RIGHT_BRACKET LEFT_BRACKET        &kp EQUAL  &kp UNDERSCORE               &kp SEMICOLON  &kp AMPERSAND                    &none                                                                    &mo 2  &kp PIPE                               &kp MINUS   &kp STAR      &kp PLUS  &kp EXCLAMATION           &kp HASH
+        &kp TAB                           &kp Q            &kp W           &kp F                       &kp P          &kp B                    &none                                                                    &none     &kp J                                   &kp L      &kp U         &kp Y        &kp COLON         &kp DOLLAR
+ &mt DEL ESCAPE                           &kp A            &kp R           &kp S                       &kp T          &kp G                    &none  &kp ESCAPE     &none                      &none  &lt 5 ENTER      &none     &kp M                                   &kp N      &kp E         &kp I            &kp O  &kp DOUBLE_QUOTES
+          &sl 5                           &kp Z            &kp X           &kp C                       &kp D          &kp V                                       &kp HOME                  &kp PG_UP                             &kp K                                   &kp H  &kp COMMA       &kp DOT         &kp FSLH              &sl 5
+          &mo 1                  &kp LEFT_ARROW  &kp RIGHT_ARROW           &sl 6  &mt RIGHT_BRACE LEFT_BRACE                           &kp BACKSPACE       &sl 4   &kp END                  &kp PG_DN        &sl 4  &kp SPACE            &mt RIGHT_PARENTHESIS LEFT_PARENTHESIS      &sl 6  &kp UP_ARROW   &kp DOWN_ARROW              &mo 1
             >;
         };
 
@@ -90,11 +90,11 @@
 
         layer_shift {
             bindings = <
- &trans  &kp LEFT_BRACKET  &kp NUMBER_2  &kp EQUAL  &kp SEMICOLON  &kp NUMBER_5            &trans                                                  &trans  &kp NUMBER_6  &kp MINUS       &kp STAR      &kp NUMBER_9  &kp NUMBER_0             &trans
- &trans         &kp RS(Q)     &kp RS(W)  &kp RS(F)      &kp RS(P)     &kp RS(B)            &trans                                                  &trans     &kp LS(J)  &kp LS(L)      &kp LS(U)         &kp LS(Y)     &kp COLON             &trans
- &trans         &kp RS(A)     &kp RS(R)  &kp RS(S)      &kp RS(T)     &kp RS(G)            &trans  &trans  &trans                  &trans  &trans  &trans     &kp LS(M)  &kp LS(N)      &kp LS(E)         &kp LS(I)     &kp LS(O)  &kp DOUBLE_QUOTES
- &trans         &kp RS(Z)     &kp RS(X)  &kp RS(C)      &kp RS(D)     &kp RS(V)                            &trans                  &trans                     &kp LS(K)  &kp LS(H)  &kp LESS_THAN  &kp GREATER_THAN  &kp QUESTION             &trans
- &trans            &trans        &trans     &trans         &trans                          &trans  &trans  &trans                  &trans  &trans  &trans                   &trans         &trans            &trans        &trans             &trans
+ &kp CARET  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5            &trans                                                  &trans  &kp NUMBER_6  &kp NUMBER_7   &kp NUMBER_8      &kp NUMBER_9   &kp NUMBER_0         &kp GRAVE
+    &trans     &kp RS(Q)     &kp RS(W)     &kp RS(F)     &kp RS(P)     &kp RS(B)            &trans                                                  &trans     &kp LS(J)     &kp LS(L)      &kp LS(U)         &kp LS(Y)  &kp BACKSLASH         &kp TILDE
+    &trans     &kp RS(A)     &kp RS(R)     &kp RS(S)     &kp RS(T)     &kp RS(G)            &trans  &trans  &trans                  &trans  &trans  &trans     &kp LS(M)     &kp LS(N)      &kp LS(E)         &kp LS(I)      &kp LS(O)  &kp SINGLE_QUOTE
+    &trans     &kp RS(Z)     &kp RS(X)     &kp RS(C)     &kp RS(D)     &kp RS(V)                            &trans                  &trans                     &kp LS(K)     &kp LS(H)  &kp LESS_THAN  &kp GREATER_THAN   &kp QUESTION            &trans
+    &trans        &trans        &trans        &trans        &trans                          &trans  &trans  &trans                  &trans  &trans  &trans                      &trans         &trans            &trans         &trans            &trans
             >;
         };
 
