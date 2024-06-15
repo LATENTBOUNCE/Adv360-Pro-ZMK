@@ -100,11 +100,11 @@
 
         layer_super {
             bindings = <
- &trans            &trans            &trans            &trans            &trans     &trans                      &trans                                                                   &trans     &trans         &trans         &trans         &trans            &trans  &trans
- &trans         &kp RG(Q)         &kp RG(W)         &kp RG(F)         &kp RG(E)  &kp RG(B)                      &trans                                                                   &trans  &kp LG(J)      &kp LG(L)      &kp LG(U)      &kp LG(Y)            &trans  &trans
- &trans         &kp RG(A)         &kp RG(R)         &kp RG(S)         &kp RG(T)  &kp RG(G)                      &trans     &trans  &trans                  &trans         &trans         &trans  &kp LG(M)      &kp LG(J)      &kp LG(K)      &kp LG(L)      &kp LG(SEMI)  &trans
- &trans  &kp RS(NUMBER_5)  &kp RS(NUMBER_4)  &kp RS(NUMBER_3)  &kp RS(NUMBER_2)  &kp RG(V)                                         &trans                  &trans                                &kp LG(H)  &kp LG(LS(J))  &kp LG(LS(K))  &kp LG(LS(L))  &kp LG(LS(SEMI))  &trans
- &trans            &trans            &trans            &trans            &trans                       &kp RG(NUMBER_1)  &kp RS(D)  &trans                  &trans  &kp LG(LS(Q))  &kp LG(ENTER)                    &trans         &trans         &trans            &trans  &trans
+ &trans     &trans     &trans     &trans     &trans     &trans                      &trans                                                                &trans     &trans         &trans         &trans         &trans            &trans  &trans
+ &trans  &kp RG(Q)  &kp RG(W)  &kp RG(F)  &kp RG(E)  &kp RG(B)                      &trans                                                                &trans  &kp LG(J)      &kp LG(L)      &kp LG(U)      &kp LG(Y)            &trans  &trans
+ &trans  &kp RG(A)  &kp RG(R)  &kp RG(S)  &kp RG(T)  &kp RG(G)                      &trans  &trans  &trans                  &trans         &trans         &trans  &kp LG(M)      &kp LG(J)      &kp LG(K)      &kp LG(L)      &kp LG(SEMI)  &trans
+ &trans     &kp RG     &kp RG     &kp RG     &kp RG  &kp RG(V)                                      &trans                  &trans                                &kp LG(H)  &kp LG(LS(J))  &kp LG(LS(K))  &kp LG(LS(L))  &kp LG(LS(SEMI))  &trans
+ &trans     &trans     &trans     &trans     &trans                       &kp RG(NUMBER_1)  &kp RG  &trans                  &trans  &kp LG(LS(Q))  &kp LG(ENTER)                    &trans         &trans         &trans            &trans  &trans
             >;
         };
 
